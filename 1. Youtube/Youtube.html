@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(4) YouTube</title>
+    <link rel="stylesheet" href="./styleYoutube.css" />
+    <link rel="icon" href="./miscellaneous/youtubePremiumIcon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="main-header">
+        <div class="main-header__first">
+          <div class="hamburger">
+            <div class="hamburger-bar"></div>
+            <div class="hamburger-bar"></div>
+            <div class="hamburger-bar"></div>
+          </div>
+          <a href="./Youtube.html"
+            ><img src="./miscellaneous/youtubeIcon.svg" alt="YouTube Logo"
+          /></a>
+        </div>
+
+        <div class="main-header__second">
+          <div class="search-bar">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search" />
+            </form>
+            <div class="search-background">
+              <img src="./miscellaneous/searchIcon.svg" alt="Search Icon" />
+            </div>
+          </div>
+          <div class="microphone-background">
+            <img
+              src="./miscellaneous/microphoneIcon.svg"
+              alt="Microphone Icon"
+            />
+          </div>
+        </div>
+
+        <div class="main-header__third">
+          <div class="search-mobile">
+            <img src="./miscellaneous/searchIcon.svg" alt="Search Icon" />
+          </div>
+          <div class="microphone-mobile">
+            <img
+              src="./miscellaneous/microphoneIcon.svg"
+              alt="Microphone Icon"
+            />
+          </div>
+          <div class="create">
+            <img src="./miscellaneous/createIcon.svg" alt="Create Icon" />
+          </div>
+          <div class="notifications">
+            <img
+              src="./miscellaneous/notificationIcon.svg"
+              alt="Notification Icon"
+            />
+          </div>
+          <div class="profile"></div>
+        </div>
+      </div>
+
+      <div class="second-header">
+        <ul>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Gaming</a></li>
+          <li><a href="#">Live</a></li>
+          <li><a href="#">Test drives</a></li>
+          <li><a href="#">Supercar</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Mixes</a></li>
+          <li><a href="#">Data Structures</a></li>
+          <li><a href="#">Calisthenics</a></li>
+          <li><a href="#">Weight Training</a></li>
+          <li><a href="#">AI</a></li>
+          <li><a href="#">Information</a></li>
+          <li><a href="#">Role-Playing Games</a></li>
+          <li><a href="#">Podcasts</a></li>
+          <li><a href="#">Comedy</a></li>
+          <li><a href="#">Recently uploaded</a></li>
+          <li><a href="#">Watched</a></li>
+          <li><a href="#">New to you</a></li>
+        </ul>
+        <div class="second-header__hover">
+          <div class="hover__middle"></div>
+          <div class="hover__sign"></div>
+        </div>
+      </div>
+
+      <div class="side-header">
+        <div class="side-header__home">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/homeIcon.svg" alt="Home Icon" />
+                Home</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/shortsIcon.svg" alt="Shorts Icon" />
+                Shorts</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/subscriptionsIcon.svg"
+                  alt="Subscriptions Icon"
+                />
+                Subscriptions</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-header__you">
+          <ul>
+            <li>
+              <a href="#" class="you-button"
+                >You
+                <pre> ></pre>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/yourChannelIcon.svg"
+                  alt="Home Icon"
+                />
+                Your channel</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/historyIcon.svg" alt="Shorts Icon" />
+                History</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/playlistsIcon.svg"
+                  alt="Subscriptions Icon"
+                />
+                Playlists</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/yourVideosIcon.svg"
+                  alt="Home Icon"
+                />
+                Your videos</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/watchLaterIcon.svg"
+                  alt="Shorts Icon"
+                />
+                Watch later</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/likedVideosIcon.svg"
+                  alt="Subscriptions Icon"
+                />
+                Liked videos</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-header__subscriptions">
+          <ul>
+            <li>Subscriptions</li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://yt3.ggpht.com/ytc/AIdro_kHWUVNS68P9sd8MVxgVc3nZQ0imwuNw1CWmmimdR_cQ7Y=s88-c-k-c0x00ffffff-no-rj"
+                  alt="Home Icon"
+                />
+                Ovidiu Pop</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://yt3.ggpht.com/diDHFAh5BJlpIAKxaFuQ0atIvqWTV82MUOwspmc1NeQid4GzmLkpMNbQh3iMIADwoSQWNwyL-Ow=s88-c-k-c0x00ffffff-no-rj"
+                  alt="Home Icon"
+                />
+                Kan Adachi</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://yt3.ggpht.com/QEZEP0DZ1l_oVWOvnJq47Mx621HVbsxbGk9fcGg8GNrp8PCUhdUbwF9UkuwjYpLpJC_XSidVy50=s88-c-k-c0x00ffffff-no-rj"
+                  alt="Home Icon"
+                />
+                Andy Popescu</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://yt3.ggpht.com/XgZhLOLT_IBZtl5iw2V5NkvjRT9g05DCW47Qzvf_IRLceXLJP4rGZytzBOUbjxMvqvmuICo8950=s88-c-k-c0x00ffffff-no-rj"
+                  alt="Home Icon"
+                />
+                Pavlo</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://yt3.ggpht.com/XDA6ig1JeTk6W84g4ipe4LhkWsghnDjq1Zuod27XxRrLkthoLBC3gj_zxQcop1kSBzw3BKIj=s88-c-k-c0x00ffffff-no-rj"
+                  alt="Home Icon"
+                />
+                Iman Gadzhi</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://yt3.ggpht.com/h_5EX_GD2dB4Ti3cQbQ1BjGkm_M-EN_z_mWSw7KG-kYzswbULF5bTogzGRm-KcawIqiXgcnJiOM=s88-c-k-c0x00ffffff-no-rj"
+                  alt="Home Icon"
+                />
+                Sahil & Sarra</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="https://yt3.ggpht.com/SZDSSBxcuZPWay3WyQOV1uBnAsRQ4_MlpomNMdnU8BCudpaiyMDFs2VeUqzgson0Uzb1biGMlKg=s88-c-k-c0x00ffffff-no-rj"
+                  alt="Home Icon"
+                />
+                Codehal</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/downArrowIcon.svg" alt="Home Icon" />
+                Show 25 more</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-header__explore">
+          <ul>
+            <li>Explore</li>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/trendingIcon.svg" alt="Home Icon" />
+                Trending</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/musicIcon.svg" alt="Shorts Icon" />
+                Music</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/gamingIcon.svg"
+                  alt="Subscriptions Icon"
+                />
+                Gaming</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/sportsIcon.svg" alt="Home Icon" />
+                Sports</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/podcastsIcon.svg"
+                  alt="Shorts Icon"
+                />
+                Podcasts</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-header__more">
+          <ul>
+            <li>More from YouTube</li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/youtubePremiumIcon.svg"
+                  alt="Home Icon"
+                />
+                YouTube Premium</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/youtubeStudioIcon.svg"
+                  alt="Shorts Icon"
+                />
+                YouTube Studio</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/youtubeMusicIcon.svg"
+                  alt="Subscriptions Icon"
+                />
+                YouTube Music</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/youtubeKidsIcon.svg"
+                  alt="Home Icon"
+                />
+                YouTube Kids</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-header__settings">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/settingsIcon.svg" alt="Home Icon" />
+                Settings</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./miscellaneous/reportIcon.svg" alt="Shorts Icon" />
+                Report History</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/helpIcon.svg"
+                  alt="Subscriptions Icon"
+                />
+                Help</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./miscellaneous/sendFeedbackIcon.svg"
+                  alt="Home Icon"
+                />
+                Send feedback</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-header__about">
+          <pre>About  Press  Copyright
+Contact us  Creators
+Advertise  Developers
+
+Terms  Privacy  Policy & Safety
+How YouTube works
+Test new features <p>© 2024 Google LLC </p></pre>
+        </div>
+      </div>
+      <div class="side-header-mobile">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="./miscellaneous/homeIcon.svg" alt="Home Icon" />
+              Home</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./miscellaneous/shortsIcon.svg" alt="Shorts Icon" />
+              Shorts</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./miscellaneous/subscriptionsIcon.svg"
+                alt="Subscriptions Icon"
+              />
+              Subscriptions</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./miscellaneous/youIcon.svg"
+                alt="Subscriptions Icon"
+              />
+              You</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main__container">
+      <section>
+        <div class="main__container__grid">
+          <div class="main__container__item">
+            <img src="./miscellaneous/5.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/5profile.png" alt="" />
+              <div class="title">
+                1 Black Belt vs. 50 White Belts (Jiu Jitsu)
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                Rafeh Qazi<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">967k views • 6 months ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/2.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/2profile.png" alt="" />
+              <div class="title">BMW M5 E60 - LEGENDARUL V10</div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Merita Toti Banii MTB</div>
+              <div class="details-about-channel">
+                263k views • 10 months ago
+              </div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/3.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/3profile.png" alt="" />
+              <div class="title">
+                I drove the most powerful Volvo in the world!
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                carwow TV<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">2.3M views • 1 year ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/4.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/4profile.png" alt="" />
+              <div class="title">
+                She Begged Me To Stop. Lamborghini STO Huracan't
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Misha Charoudin</div>
+              <div class="details-about-channel">1.7M views • 7 months ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/6.png" alt="" />
+            <div class="channel__details">
+              <span><img src="./miscellaneous/6profile.png" alt="" /></span>
+              <div class="title">Responsive CSS Grid Tutorial</div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Angela Design</div>
+              <div class="details-about-channel">794K views • 4 years ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/7.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/3profile.png" alt="" />
+              <div class="title">
+                Tesla Model x PLAID v Ferrari SF90 v Lambo SVJ: DRAG RACE
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                carwow<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">7.2M views • 1 year ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/8.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/8img.png" alt="" />
+              <div class="title">
+                EJ's Neat-O Stat Of The Night: Arm Wrestling
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">NBA on TNT</div>
+              <div class="details-about-channel">16M views • 5 years ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/9.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/9img.png" alt="" />
+              <div class="title">Meet The $300 Billion Man</div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Jordan Welch</div>
+              <div class="details-about-channel">
+                2.4M views • 11 months ago
+              </div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/10.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/10img.png" alt="" />
+              <div class="title">
+                What happens When a Pro Climber Attends a Beginner...
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                Magnus Midtbo<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">5.6M views • 4 months ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/11.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/11img.png" alt="" />
+              <div class="title">Street Driving my 400hp CAMARO!!!</div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">John Doc TV</div>
+              <div class="details-about-channel">1.1M views • 1 month ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/12.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/12img.png" alt="" />
+              <div class="title">
+                Man Fully Assembles Mercedes TRUCK ENGINE Perfectly
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Quantum Tech HD</div>
+              <div class="details-about-channel">9.7M views • 1 month ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/13.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/13img.png" alt="" />
+              <div class="title">
+                Asking Harvard Students How They Make Money
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Ashton Herndon</div>
+              <div class="details-about-channel">1M views • 6 months ago</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="shorts__grid">
+          <div class="shorts__main">
+            <span><img src="./miscellaneous/shortsIconM.svg" alt="" /></span>
+            <span>Shorts</span>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short1.png" alt="" />
+            <div class="channel__details">
+              <div class="title">Devon Larrat showed the work to a...</div>
+              <div class="details-about-channel">2.5M views</div>
+            </div>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short2.png" alt="" />
+            <div class="channel__details">
+              <div class="title">
+                Cats' Swift Reactions<br />
+                #shorts #pets
+              </div>
+              <div class="details-about-channel">72M views</div>
+            </div>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short3.png" alt="" />
+            <div class="channel__details">
+              <div class="title">
+                Unbelievable power from this electric motor, Xnov...
+              </div>
+              <div class="details-about-channel">3.1M views</div>
+            </div>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short4.png" alt="" />
+            <div class="channel__details">
+              <div class="title">Oleg Zhokh before accident</div>
+              <div class="details-about-channel">139k views</div>
+            </div>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short5.png" alt="" />
+            <div class="channel__details">
+              <div class="title">This man needs to be stopped</div>
+              <div class="details-about-channel">3.1M views</div>
+            </div>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short6.png" alt="" />
+            <div class="channel__details">
+              <div class="title">
+                The game was over before it started #magnuscarlesn
+                #vincentkeymer
+              </div>
+              <div class="details-about-channel">15M views</div>
+            </div>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short7.png" alt="" />
+            <div class="channel__details">
+              <div class="title">Volvo FH dpf filter cleaning</div>
+              <div class="details-about-channel">11M views</div>
+            </div>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short8.png" alt="" />
+            <div class="channel__details">
+              <div class="title">
+                INSANE Powerlifter ANATOLY Pretends to be CLEANER in GYM
+              </div>
+              <div class="details-about-channel">13M views</div>
+            </div>
+          </div>
+
+          <div class="shorts__grid__item">
+            <img src="./miscellaneous/Short9.png" alt="" />
+            <div class="channel__details">
+              <div class="title">Meet The $300 Billion Man</div>
+              <div class="details-about-channel">
+                2.4M views • 11 months ago
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="separator">
+        <button class="more__buton">
+          Show More
+          <span><img src="./miscellaneous/downArrowIcon.svg" alt="" /></span>
+        </button>
+      </div>
+
+      <section>
+        <div class="main__container__grid">
+          <div class="main__container__item">
+            <img src="./miscellaneous/4.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/4profile.png" alt="" />
+              <div class="title">
+                She Begged Me To Stop. Lamborghini STO Huracan't
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Misha Charoudin</div>
+              <div class="details-about-channel">1.7M views • 7 months ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/6.png" alt="" />
+            <div class="channel__details">
+              <span><img src="./miscellaneous/6profile.png" alt="" /></span>
+              <div class="title">Responsive CSS Grid Tutorial</div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Angela Design</div>
+              <div class="details-about-channel">794K views • 4 years ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/7.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/3profile.png" alt="" />
+              <div class="title">
+                Tesla Model x PLAID v Ferrari SF90 v Lambo SVJ: DRAG RACE
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                carwow<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">7.2M views • 1 year ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/5.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/5profile.png" alt="" />
+              <div class="title">
+                1 Black Belt vs. 50 White Belts (Jiu Jitsu)
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                Rafeh Qazi<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">967k views • 6 months ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/2.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/2profile.png" alt="" />
+              <div class="title">BMW M5 E60 - LEGENDARUL V10</div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Merita Toti Banii MTB</div>
+              <div class="details-about-channel">
+                263k views • 10 months ago
+              </div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/3.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/3profile.png" alt="" />
+              <div class="title">
+                I drove the most powerful Volvo in the world!
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                carwow TV<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">2.3M views • 1 year ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/4.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/4profile.png" alt="" />
+              <div class="title">
+                She Begged Me To Stop. Lamborghini STO Huracan't
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Misha Charoudin</div>
+              <div class="details-about-channel">1.7M views • 7 months ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/6.png" alt="" />
+            <div class="channel__details">
+              <span><img src="./miscellaneous/6profile.png" alt="" /></span>
+              <div class="title">Responsive CSS Grid Tutorial</div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Angela Design</div>
+              <div class="details-about-channel">794K views • 4 years ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/7.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/3profile.png" alt="" />
+              <div class="title">
+                Tesla Model x PLAID v Ferrari SF90 v Lambo SVJ: DRAG RACE
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                carwow<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">7.2M views • 1 year ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/5.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/5profile.png" alt="" />
+              <div class="title">
+                1 Black Belt vs. 50 White Belts (Jiu Jitsu)
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                Rafeh Qazi<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">967k views • 6 months ago</div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/2.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/2profile.png" alt="" />
+              <div class="title">BMW M5 E60 - LEGENDARUL V10</div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">Merita Toti Banii MTB</div>
+              <div class="details-about-channel">
+                263k views • 10 months ago
+              </div>
+            </div>
+          </div>
+
+          <div class="main__container__item">
+            <img src="./miscellaneous/3.png" alt="" />
+            <div class="channel__details">
+              <img src="./miscellaneous/3profile.png" alt="" />
+              <div class="title">
+                I drove the most powerful Volvo in the world!
+              </div>
+              <span><img src="./miscellaneous/threePoints.svg" alt="" /></span>
+              <div class="name-of-channel">
+                carwow TV<img src="./miscellaneous/verified.svg" alt="" />
+              </div>
+              <div class="details-about-channel">2.3M views • 1 year ago</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
